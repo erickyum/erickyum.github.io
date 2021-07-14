@@ -41,7 +41,7 @@ p {
 }
 p a,
 li a {
-  text-decoration: underline;
+  text-decoration: none;
 }
 h1,
 h2,
@@ -63,7 +63,7 @@ a img:focus {
   cursor: zoom-in;
 }
 hr.small {
-  max-width: 100px;
+  max-width: 380px;
   margin: 15px auto;
   border-width: 4px;
   border-color: #fff;
