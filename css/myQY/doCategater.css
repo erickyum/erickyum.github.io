@@ -1,0 +1,80 @@
+/* 首页分类条展示 */
+#category-bar{
+    padding: 0.4rem 1rem 0.4rem 0.5rem;
+/*    background: var(--card-bg); */
+    border-radius: 14px;
+	font-weight: bold;
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 1rem;
+/* 	box-shadow: var(--card-box-shadow) */
+  }
+  
+  @media screen and (max-width: 768px){
+    #category-bar{
+      border-radius: 0;
+    }
+  }
+  
+  #category #category-bar{
+    padding: 0;
+    border: none;
+  }
+  
+  #category a.category-bar-item.select a{
+    display: none;
+  }
+  
+  .category-in-bar{
+    display: flex;
+    white-space: nowrap;
+  }
+  
+  .category-in-bar-tips{
+    margin-right: 1rem;
+  }
+  
+  .category-bar-items{
+    white-space: nowrap;
+    overflow-x: scroll;
+    display: flex;
+  }
+  
+  
+  
+  .category-bar-items::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .category-bar-item a{
+    padding: 0.5rem 0.5rem;
+    margin: 0 0.25rem;
+	color:var(--font-color);
+    border-radius: 18px;
+  }
+  
+  .category-bar-item:hover a{
+    background: var(--lyx-theme);
+	color:  var(--yfebai-them);
+    scale: 1.08s;
+  }
+  
+  .category-bar-item.select a {
+    background: var(--lyx-theme);
+    color: var(--font-color);
+    border-radius: 28px;
+  }
+  
+  .category-bar-more{
+	border-radius: 36px;
+    margin-left: 1rem;
+	color:var(--font-color)
+    font-weight: bold;
+  }
+  
+  .category-bar-more:hover{
+    background: var(--lyx-theme);
+  	color:  var(--yfebai-them);
+    scale: 1.08s;
+  }
