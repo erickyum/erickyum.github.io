@@ -2301,7 +2301,7 @@ figure.highlight pre .javascript .function {
   }
 }
 .layout.hide-aside {
-  max-width: 1000px;
+  max-width: 1300px;
 }
 @media screen and (min-width: 2000px) {
   .layout.hide-aside {
@@ -2336,7 +2336,7 @@ figure.highlight pre .javascript .function {
   float: left;
   overflow: hidden;
   margin: 15px 7px;
-  width: calc(100% / 3 - 15px);
+  width: calc(100% / 5 - 10px);
   height: 90px;
   border-radius: 8px;
   line-height: 17px;
@@ -3060,7 +3060,7 @@ h1.page-title + .tag-cloud-list {
     display: none;
   }
   html.hide-aside .layout > div:first-child {
-    width: 80%;
+    width: 100%;
   }
 }
 .page .sticky_layout {
