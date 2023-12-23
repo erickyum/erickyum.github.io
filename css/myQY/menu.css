@@ -97,7 +97,7 @@
 	box-shadow: var(--card-box-shadow);
 	flex: 1 auto;
 	justify-content: center;
-	font-weight: bold;
+/* 	font-weight: bold; */
 	align-items: center;
 	display: flex;
 	padding: 0px 0px;

@@ -45,7 +45,7 @@ class MetingJSElement extends HTMLElement {
 			this.meta[d] = a[d], delete a[d]
 		}
 		this.config = a, this.api = this.meta.api || window.meting_api ||
-			"https://meting.erickyun.top/meting/api?server=:server&type=:type&id=:id&r=:r", this.meta.auto && this
+			"https://erickyun.top/meting/api?server=:server&type=:type&id=:id&r=:r", this.meta.auto && this
 			._parse_link()
 	}
 	_parse_link() {
